@@ -1,82 +1,128 @@
-# 🚀 Talha Jalil - AI/ML Engineer Portfolio
+# 🚀 Talha Jalil - Portfolio Website
 
-Welcome to my professional portfolio website! This site showcases my experience, projects, and skills in Artificial Intelligence and Machine Learning.
+A modern, responsive portfolio website built with Next.js 14, TypeScript, and Tailwind CSS. This portfolio showcases my experience, projects, and skills as a Computer Science student at York University.
 
 ## 🌐 Live Website
 
 Visit my portfolio at: **https://talhaajalil.github.io/talhaajalil/**
 
-## 📋 About
+## ✨ Features
 
-I'm an AI/ML Engineer specializing in:
-- 🤖 Large Language Models (LLMs)
-- 💬 RAG-based Chatbot Development
-- 🔗 LangChain & LangGraph
-- 🧠 Deep Learning & Neural Networks
-- 📊 Data Science & Analytics
+- 🌓 **Dark/Light Mode** - Toggle between themes with persistent preference
+- 📱 **Fully Responsive** - Mobile-first design that works on all devices
+- ⚡ **Fast Performance** - Optimized for 90+ Lighthouse score
+- 🎨 **Smooth Animations** - Powered by Framer Motion
+- 📝 **Contact Form** - Form validation with React Hook Form
+- 🔍 **SEO Optimized** - Meta tags and Open Graph support
+- ♿ **Accessible** - WCAG 2.1 compliant design
 
-## 🎓 Education
+## 🛠️ Tech Stack
 
-**National University of Sciences and Technology (NUST)**
-- Bachelor of Engineering in Electrical Engineering
-- CGPA: 3.54/4.00
-- Expected Graduation: June 2026
+- **Framework**: [Next.js 14](https://nextjs.org/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Forms**: [React Hook Form](https://react-hook-form.com/)
+- **Deployment**: [Vercel](https://vercel.com/)
 
-## 💼 Experience
+## 📋 Sections
 
-- **AI/ML Engineer Intern** - SkyElectric (May 2024 - Aug 2024)
-- **Data Science Intern** - Prime Consulting (Jun 2024 - Aug 2024)
-- **Junior AI Engineer** - The AI Garage (Sep 2023 - Dec 2023)
-- **Deep Learning Intern** - IntelliWriter (Jun 2023 - Sep 2023)
+1. **Hero** - Introduction with social links
+2. **About** - Education and background information
+3. **Skills** - Technical skills organized by category
+4. **Experience** - Professional work experience
+5. **Projects** - Featured project showcase
+6. **Contact** - Contact form and information
 
-## 🚀 Featured Projects
+## 🚀 Getting Started
 
-1. **RAG-based Multi-Agent Chatbot** - LangChain, LangGraph, ChromaDB
-2. **Document Processing Assistant** - Groq API, Streamlit
-3. **Traffic Flow Optimization** - YOLO, OpenCV, Deep Learning
-4. **Autonomous Drone Navigation** - Computer Vision, Path Planning
+### Prerequisites
 
-## 🛠️ Technologies
+- Node.js 18.0 or higher
+- npm or yarn
 
-**Languages:** Python, C++, MATLAB, SQL
+### Installation
 
-**AI/ML:** TensorFlow, PyTorch, Scikit-learn, LangChain, Hugging Face
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/talhaajalil/talhaajalil.git
+   cd talhaajalil
+   ```
 
-**Tools:** Git, Docker, AWS, Streamlit, FastAPI
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-**Databases:** PostgreSQL, ChromaDB, Pinecone, FAISS
+3. Create a `.env.local` file (optional, for contact form):
+   ```bash
+   cp .env.example .env.local
+   ```
 
-## 📁 Portfolio Structure
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+### Build for Production
+
+```bash
+npm run build
+npm start
+```
+
+## 📁 Project Structure
 
 ```
-├── index.html      # Main HTML structure
-├── styles.css      # Professional CSS styling
-├── script.js       # Interactive JavaScript
-└── README.md       # This file
+/
+├── app/
+│   ├── layout.tsx      # Root layout with metadata
+│   ├── page.tsx        # Main page component
+│   └── globals.css     # Global styles and theme variables
+├── components/
+│   ├── Navigation.tsx  # Navigation bar with theme toggle
+│   ├── Hero.tsx        # Hero section
+│   ├── About.tsx       # About section with education
+│   ├── Skills.tsx      # Skills showcase
+│   ├── Experience.tsx  # Work experience timeline
+│   ├── Projects.tsx    # Project cards
+│   ├── Contact.tsx     # Contact form and info
+│   └── Footer.tsx      # Footer with links
+├── public/
+│   └── images/         # Static images
+├── package.json
+├── tsconfig.json
+├── tailwind.config.ts
+└── next.config.ts
 ```
-
-## 🎨 Features
-
-- ✨ Smooth scrolling navigation
-- 🎬 Scroll-triggered animations
-- 📱 Fully responsive design
-- 🎨 Modern gradient design
-- ⚡ Fast loading performance
 
 ## 🚀 Deployment
 
-This portfolio is deployed using **GitHub Pages**:
+This project is configured for deployment on Vercel:
 
-1. Go to repository Settings
-2. Navigate to Pages section
-3. Select `main` branch as source
-4. Save and deploy
+1. Push your code to GitHub
+2. Import the repository on [Vercel](https://vercel.com/)
+3. Vercel will automatically detect Next.js and deploy
+
+Alternatively, deploy with the Vercel CLI:
+
+```bash
+npm i -g vercel
+vercel
+```
 
 ## 📧 Contact
 
-- **Email:** talhaajalil@gmail.com
-- **LinkedIn:** [linkedin.com/in/talhaajalil](https://linkedin.com/in/talhaajalil)
-- **GitHub:** [github.com/talhaajalil](https://github.com/talhaajalil)
+- **Email**: talhaa.jalil@gmail.com
+- **Phone**: (647) 781-9982
+- **LinkedIn**: [linkedin.com/in/talha-jalil](https://linkedin.com/in/talha-jalil)
+- **GitHub**: [github.com/talhaajalil](https://github.com/talhaajalil)
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
