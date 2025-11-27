@@ -50,20 +50,19 @@ export default function About() {
                 Who I Am
               </h3>
               <p className="text-[var(--secondary)] leading-relaxed">
-                I&apos;m a dedicated Computer Science student at York University, passionate about 
-                creating innovative solutions through technology. With a strong foundation in 
-                full-stack development and a keen interest in software engineering, I strive 
-                to build applications that make a positive impact.
+                I&apos;m a DevOps Engineer and Computer Science graduate from FAST-NUCES with 
+                experience in AWS, Docker, Kubernetes, CI/CD (Jenkins, Azure DevOps), and 
+                monitoring tools like Grafana and Prometheus.
               </p>
               <p className="text-[var(--secondary)] leading-relaxed">
-                My experience spans from developing enterprise-level banking applications to 
-                providing IT support for educational institutions. I believe in writing clean, 
-                maintainable code and following best practices to deliver high-quality software.
+                Skilled in automating infrastructure, streamlining deployments, and building 
+                scalable, reliable systems in cloud environments. I have hands-on experience 
+                designing CI/CD pipelines, configuring AWS infrastructure, and implementing 
+                comprehensive monitoring solutions.
               </p>
               <p className="text-[var(--secondary)] leading-relaxed">
-                When I&apos;m not coding, you can find me exploring new technologies, contributing 
-                to open-source projects, or working on personal projects that challenge my skills 
-                and expand my knowledge.
+                I&apos;m passionate about DevOps best practices, Infrastructure as Code, and 
+                continuous improvement in software delivery processes.
               </p>
             </motion.div>
 
@@ -103,13 +102,13 @@ export default function About() {
 
                 <div className="border-l-4 border-[var(--primary)] pl-6 py-2">
                   <h4 className="text-lg font-semibold text-[var(--foreground)]">
-                    York University
+                    FAST National University of Computer and Emerging Sciences
                   </h4>
                   <p className="text-[var(--primary)] font-medium mt-1">
-                    Honours Bachelor of Science in Computer Science
+                    Bachelor of Science in Computer Science
                   </p>
                   <p className="text-[var(--secondary)] mt-2">
-                    Specialized Honours Program
+                    Islamabad, Pakistan
                   </p>
                   <div className="flex flex-wrap gap-4 mt-4">
                     <div className="flex items-center text-sm text-[var(--secondary)]">
@@ -126,28 +125,12 @@ export default function About() {
                           d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
                         />
                       </svg>
-                      Sep 2023 - Apr 2027
-                    </div>
-                    <div className="flex items-center text-sm text-[var(--secondary)]">
-                      <svg
-                        className="w-4 h-4 mr-2 text-[var(--primary)]"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
-                        />
-                      </svg>
-                      Expected cGPA: 8.0/9.0
+                      2021 – 2025
                     </div>
                   </div>
                   <div className="mt-4 pt-4 border-t border-[var(--border)]">
                     <p className="text-sm text-[var(--secondary)]">
-                      <span className="font-medium text-[var(--foreground)]">Expected Graduation:</span> 2027
+                      <span className="font-medium text-[var(--foreground)]">Relevant Coursework:</span> Cloud Computing, DevOps, Operating Systems, Computer Networks
                     </p>
                   </div>
                 </div>
@@ -166,8 +149,8 @@ export default function About() {
                   variants={itemVariants}
                   className="bg-[var(--card)] rounded-xl p-6 text-center border border-[var(--border)] hover:border-[var(--primary)] transition-colors"
                 >
-                  <div className="text-3xl font-bold text-[var(--primary)]">2+</div>
-                  <div className="text-sm text-[var(--secondary)] mt-1">Internships</div>
+                  <div className="text-3xl font-bold text-[var(--primary)]">3+</div>
+                  <div className="text-sm text-[var(--secondary)] mt-1">Work Experiences</div>
                 </motion.div>
               </div>
             </motion.div>

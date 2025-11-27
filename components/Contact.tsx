@@ -20,8 +20,8 @@ const contactInfo = [
       </svg>
     ),
     title: 'Email',
-    value: 'talhaa.jalil@gmail.com',
-    href: 'mailto:talhaa.jalil@gmail.com',
+    value: 'ranatalhaqazi@gmail.com',
+    href: 'mailto:ranatalhaqazi@gmail.com',
   },
   {
     icon: (
@@ -30,8 +30,8 @@ const contactInfo = [
       </svg>
     ),
     title: 'Phone',
-    value: '(647) 781-9982',
-    href: 'tel:+16477819982',
+    value: '+92 345 9306000',
+    href: 'tel:+923459306000',
   },
   {
     icon: (
@@ -41,7 +41,7 @@ const contactInfo = [
     ),
     title: 'LinkedIn',
     value: 'linkedin.com/in/talha-jalil',
-    href: 'https://linkedin.com/in/talha-jalil',
+    href: 'https://www.linkedin.com/in/talha-jalil/',
     external: true,
   },
   {

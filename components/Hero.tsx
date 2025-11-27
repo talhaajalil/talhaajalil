@@ -79,7 +79,7 @@ export default function Hero() {
           transition={{ delay: 0.4, duration: 0.5 }}
           className="text-xl sm:text-2xl md:text-3xl font-light text-white/90 mb-6"
         >
-          Computer Science Student at York University
+          DevOps Engineer
         </motion.h2>
 
         {/* Description */}
@@ -89,8 +89,7 @@ export default function Hero() {
           transition={{ delay: 0.6, duration: 0.5 }}
           className="text-lg text-white/80 mb-8 max-w-2xl mx-auto"
         >
-          Passionate about building innovative web applications and solving complex problems. 
-          Currently pursuing Honours BSc in Computer Science with a focus on full-stack development.
+          DevOps Engineer and Computer Science graduate from FAST-NUCES with experience in AWS, Docker, Kubernetes, CI/CD (Jenkins, Azure DevOps), and monitoring tools like Grafana and Prometheus. Skilled in automating infrastructure, streamlining deployments, and building scalable, reliable systems in cloud environments.
         </motion.p>
 
         {/* Social Links */}
@@ -101,7 +100,7 @@ export default function Hero() {
           className="flex justify-center space-x-6 mb-10"
         >
           <a
-            href="https://linkedin.com/in/talha-jalil"
+            href="https://www.linkedin.com/in/talha-jalil/"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 bg-white/10 hover:bg-white/20 rounded-full transition-all duration-300 hover:scale-110"
@@ -123,7 +122,7 @@ export default function Hero() {
             </svg>
           </a>
           <a
-            href="mailto:talhaa.jalil@gmail.com"
+            href="mailto:ranatalhaqazi@gmail.com"
             className="p-3 bg-white/10 hover:bg-white/20 rounded-full transition-all duration-300 hover:scale-110"
             aria-label="Email"
           >

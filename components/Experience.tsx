@@ -6,28 +6,48 @@ import { useRef } from 'react';
 
 const experiences = [
   {
-    title: 'Software Developer Intern',
-    company: 'FDM Group',
-    period: 'May 2024 - Aug 2024',
+    title: 'DevOps Engineer',
+    company: 'CareCloud',
+    location: 'Islamabad, Pakistan',
+    period: 'June 2025 – Present',
     description: [
-      'Collaborated with a team of 5 to design and develop a full-stack banking application using Java, SQL, and React.js, handling 50+ concurrent users in a simulated production environment',
-      'Implemented RESTful APIs for account management and transaction processing, improving data retrieval speed by 30% through query optimization',
-      'Conducted unit and integration testing using JUnit and Mockito, achieving 90% code coverage and reducing production bugs by 25%',
-      'Participated in Agile ceremonies including daily stand-ups, sprint planning, and retrospectives, contributing to a 20% increase in team velocity',
+      'Designed and implemented CI/CD pipelines using Azure DevOps, integrating Docker for containerized deployments and pushing images to Docker Hub for streamlined application delivery',
+      'Configured Jenkins Master-Worker setup on AWS with VPC, public/private subnets, and security groups to ensure secure and scalable CI/CD workflows',
+      'Built comprehensive monitoring dashboards using Grafana, Prometheus, Loki, Promtail, and cAdvisor to visualize CPU, memory, disk, container metrics, and real-time logs',
+      'Managed AWS infrastructure, including EC2 instance recovery, S3 static website hosting, Route 53 DNS configuration, and CloudFront for optimized content delivery',
+      'Automated infrastructure tasks using AWS CLI and CloudFormation, enhancing deployment efficiency',
+      'Handled the whole project and created CI/CD pipelines for .NET applications and deploy the project',
     ],
-    technologies: ['Java', 'SQL', 'React.js', 'RESTful APIs', 'JUnit', 'Mockito', 'Agile'],
+    achievements: 'Restored EC2 SSH access after simulated PEM file loss; configured Route 53 and S3 for a React-based static website; set up ICMP monitoring with Prometheus and Node Exporter',
+    technologies: ['Azure DevOps', 'Docker', 'Jenkins', 'AWS', 'Grafana', 'Prometheus', 'CloudFormation'],
   },
   {
-    title: 'IT Support Intern',
-    company: 'York University',
-    period: 'Jan 2024 - Apr 2024',
+    title: 'DevOps Engineer Intern',
+    company: 'CareCloud',
+    location: 'Islamabad, Pakistan',
+    period: 'May 2025 – June 2025',
     description: [
-      'Provided technical support to 200+ students and staff, resolving hardware and software issues with a 95% first-contact resolution rate',
-      'Maintained and troubleshot computer labs, ensuring 99% uptime across 10+ lab spaces with 300+ workstations',
-      'Assisted in network configuration and security implementations, contributing to a 15% reduction in security incidents',
-      'Created and updated technical documentation and user guides, improving issue resolution time by 20%',
+      'Developed foundational DevOps skills through hands-on labs in Linux CLI, networking (DNS, routing, switching), and containerization with Docker',
+      'Completed training on AWS services (IAM, EC2, RDS, Route 53) and practiced resource provisioning using AWS Free Tier',
+      'Mastered Git workflows, including branching, merging, pull requests, and conflict resolution',
+      'Deployed web applications using Apache HTTP Server, Apache Tomcat, Flask, and Express',
+      'Learned configuration file management with YAML and JSON for tools like Ansible and Kubernetes',
     ],
-    technologies: ['Technical Support', 'Hardware Troubleshooting', 'Network Configuration', 'Documentation'],
+    achievements: 'Configured DNS records and routing policies in Route 53; practiced Docker CLI commands and built containerized environments; studied 2-tier application architecture',
+    technologies: ['Linux', 'Docker', 'AWS', 'Git', 'Apache', 'Flask', 'YAML'],
+  },
+  {
+    title: 'Cloud Engineer Intern',
+    company: 'RepairDesk',
+    location: 'Lahore, Punjab, Pakistan',
+    period: 'June 2024 – August 2024',
+    description: [
+      'Managed AWS cloud resources (EC2, S3, RDS, Lambda, CloudFormation, IAM) to support application deployments and infrastructure optimization',
+      'Assisted in provisioning and configuring cloud environments for operational efficiency and security compliance',
+      'Gained experience with Infrastructure as Code using CloudFormation templates',
+    ],
+    achievements: '',
+    technologies: ['AWS EC2', 'S3', 'RDS', 'Lambda', 'CloudFormation', 'IAM'],
   },
 ];
 
@@ -107,6 +127,9 @@ export default function Experience() {
                       </h3>
                       <p className="text-[var(--primary)] font-medium">
                         {exp.company}
+                      </p>
+                      <p className="text-sm text-[var(--secondary)]">
+                        {exp.location}
                       </p>
                     </div>
 

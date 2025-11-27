@@ -6,70 +6,62 @@ import { useRef } from 'react';
 
 const projects = [
   {
-    title: 'Personal Portfolio Website',
-    date: 'Nov 2024',
-    description: 'A modern, responsive portfolio website showcasing projects and skills with a professional design.',
+    title: 'Centralized Monitoring System',
+    date: '',
+    description: 'A comprehensive monitoring stack for real-time visualization of system logs, container metrics, and Docker performance.',
     details: [
-      'Built a responsive portfolio website using Next.js, TypeScript, and Tailwind CSS, showcasing projects and skills with a modern, user-friendly interface',
-      'Implemented server-side rendering (SSR) for improved SEO and performance, achieving a 95+ Lighthouse score',
-      'Integrated contact form functionality using Nodemailer and form validation with React Hook Form',
-      'Deployed on Vercel with CI/CD pipeline, enabling automatic updates and reducing deployment time by 80%',
+      'Developed a monitoring stack using Grafana, Prometheus, Loki, Promtail, and cAdvisor on AWS EC2 for real-time visualization of system logs, container metrics, and Docker performance',
+      'Configured Prometheus and Node Exporter for EC2 AMI metrics and Loki/Promtail for log aggregation',
     ],
-    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'React Hook Form', 'Nodemailer', 'Vercel'],
+    technologies: ['Grafana', 'Prometheus', 'Loki', 'Promtail', 'cAdvisor', 'AWS EC2'],
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
       </svg>
     ),
   },
   {
-    title: 'AI-Powered Study Assistant',
-    date: 'Oct 2024',
-    description: 'An intelligent web application that helps students generate study materials using AI.',
+    title: 'Jenkins Master-Worker CI/CD Setup',
+    date: '',
+    description: 'A secure Jenkins CI/CD environment on AWS with VPC configuration for scalable workflows.',
     details: [
-      'Developed a web application using React.js and OpenAI API to help students generate study materials, including flashcards, quizzes, and summaries',
-      'Implemented user authentication and data persistence using Firebase, supporting 50+ active users',
-      'Designed an intuitive UI/UX with Material-UI, resulting in a 40% increase in user engagement',
-      'Optimized API calls and implemented caching strategies, reducing response time by 35%',
+      'Built a secure Jenkins CI/CD environment on AWS with VPC, public/private subnets, and EC2 instances for master and worker nodes',
+      'Ensured secure communication and internet access for worker nodes through security groups',
     ],
-    technologies: ['React.js', 'OpenAI API', 'Firebase', 'Material-UI'],
+    technologies: ['Jenkins', 'AWS VPC', 'EC2', 'Security Groups'],
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
       </svg>
     ),
   },
   {
-    title: 'Weather Dashboard Application',
-    date: 'Aug 2024',
-    description: 'A real-time weather dashboard displaying current conditions and forecasts for multiple cities.',
+    title: 'Azure DevOps CI/CD Pipeline',
+    date: '',
+    description: 'CI/CD pipelines in Azure DevOps for containerized builds and deployment to on-premise servers.',
     details: [
-      'Created a real-time weather dashboard using React.js and OpenWeatherMap API, displaying current conditions and 7-day forecasts for multiple cities',
-      'Implemented location-based weather detection using browser geolocation API, improving user experience',
-      'Utilized Chart.js for data visualization, presenting temperature and precipitation trends in an interactive format',
-      'Employed responsive design principles with CSS Grid and Flexbox, ensuring compatibility across all devices',
+      'Created CI/CD pipelines in Azure DevOps for all applications, integrating Docker for containerized builds and deployment to on-premise servers configuring all the setup',
+      'Configured YAML-based pipelines for dependency installation, testing, and artifact creation using a self-hosted agent',
     ],
-    technologies: ['React.js', 'OpenWeatherMap API', 'Chart.js', 'CSS Grid', 'Flexbox'],
+    technologies: ['Azure DevOps', 'Docker', 'YAML', 'C#', 'Git'],
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
       </svg>
     ),
   },
   {
-    title: 'E-Commerce Product Catalog',
-    date: 'Jun 2024',
-    description: 'A full-stack e-commerce application with product listings, reviews, and efficient data handling.',
+    title: 'WattWiseAI – Intelligent Electricity Demand Forecasting System',
+    date: '',
+    description: 'A modular forecasting system using Python and machine learning for electricity demand prediction.',
     details: [
-      'Built a full-stack e-commerce product catalog using Node.js, Express.js, and MongoDB, handling product listings and user reviews',
-      'Implemented CRUD operations with RESTful APIs, processing 1000+ product entries efficiently',
-      'Designed database schemas with proper indexing, improving query performance by 40%',
-      'Integrated pagination and filtering features, enhancing user navigation and reducing load times by 25%',
+      'Developed a modular forecasting system using Python, integrating machine learning models for electricity demand prediction',
+      'Deployed interactive web interfaces on cloud infrastructure for real-time predictions',
     ],
-    technologies: ['Node.js', 'Express.js', 'MongoDB', 'RESTful APIs'],
+    technologies: ['Python', 'AWS', 'Web Development', 'Machine Learning'],
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
       </svg>
     ),
   },

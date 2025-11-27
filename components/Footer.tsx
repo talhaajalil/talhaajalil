@@ -30,8 +30,8 @@ export default function Footer() {
               Talha Jalil
             </motion.a>
             <p className="text-[var(--secondary)] mt-4 text-sm">
-              Computer Science Student at York University. Passionate about building 
-              innovative web applications and solving complex problems.
+              DevOps Engineer and Computer Science graduate from FAST-NUCES. 
+              Skilled in automating infrastructure and building scalable cloud systems.
             </p>
           </div>
 
@@ -61,7 +61,7 @@ export default function Footer() {
             <h3 className="text-[var(--foreground)] font-semibold mb-4">Connect</h3>
             <div className="flex space-x-4">
               <a
-                href="https://linkedin.com/in/talha-jalil"
+                href="https://www.linkedin.com/in/talha-jalil/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 bg-[var(--card)] border border-[var(--border)] rounded-lg hover:border-[var(--primary)] hover:text-[var(--primary)] transition-all duration-300"
@@ -83,7 +83,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="mailto:talhaa.jalil@gmail.com"
+                href="mailto:ranatalhaqazi@gmail.com"
                 className="p-2 bg-[var(--card)] border border-[var(--border)] rounded-lg hover:border-[var(--primary)] hover:text-[var(--primary)] transition-all duration-300"
                 aria-label="Email"
               >
@@ -93,8 +93,8 @@ export default function Footer() {
               </a>
             </div>
             <div className="mt-6 text-sm text-[var(--secondary)]">
-              <p>talhaa.jalil@gmail.com</p>
-              <p>(647) 781-9982</p>
+              <p>ranatalhaqazi@gmail.com</p>
+              <p>+92 345 9306000</p>
             </div>
           </div>
         </div>

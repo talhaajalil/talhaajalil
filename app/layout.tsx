@@ -3,23 +3,23 @@ import "./globals.css";
 import Navigation from "@/components/Navigation";
 
 export const metadata: Metadata = {
-  title: "Talha Jalil | Computer Science Student at York University",
-  description: "Portfolio website of Talha Jalil - Computer Science student at York University specializing in full-stack development with React, Next.js, Node.js, and more.",
-  keywords: ["Talha Jalil", "Computer Science", "York University", "Full Stack Developer", "React", "Next.js", "TypeScript", "Portfolio"],
+  title: "Talha Jalil | DevOps Engineer",
+  description: "Portfolio website of Talha Jalil - DevOps Engineer and Computer Science graduate from FAST-NUCES with experience in AWS, Docker, Kubernetes, CI/CD, and monitoring tools.",
+  keywords: ["Talha Jalil", "DevOps Engineer", "AWS", "Docker", "Kubernetes", "CI/CD", "Jenkins", "Azure DevOps", "Grafana", "Prometheus", "Cloud Engineer", "FAST-NUCES"],
   authors: [{ name: "Talha Jalil" }],
   creator: "Talha Jalil",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://talhaajalil.github.io/talhaajalil/",
-    title: "Talha Jalil | Computer Science Student at York University",
-    description: "Portfolio website of Talha Jalil - Computer Science student at York University specializing in full-stack development.",
+    title: "Talha Jalil | DevOps Engineer",
+    description: "Portfolio website of Talha Jalil - DevOps Engineer specializing in AWS, Docker, Kubernetes, and CI/CD pipelines.",
     siteName: "Talha Jalil Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Talha Jalil | Computer Science Student at York University",
-    description: "Portfolio website of Talha Jalil - Computer Science student at York University specializing in full-stack development.",
+    title: "Talha Jalil | DevOps Engineer",
+    description: "Portfolio website of Talha Jalil - DevOps Engineer specializing in AWS, Docker, Kubernetes, and CI/CD pipelines.",
   },
   robots: {
     index: true,
